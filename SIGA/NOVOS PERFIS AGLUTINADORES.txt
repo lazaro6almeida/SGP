@@ -1,0 +1,90 @@
+182 - Gestor_cadastro_RH
+
+Descrição: Administrar cadastro de pessoas, incluindo posse, exercício, movimentação interna, remoção, cessão, requisição, readaptação, reversão, reintegração, recondução, designação e substituição para função e cargo em comissão, vacância, exoneração a pedido, demissão, falecimento, posse em cargo inacumulável, aposentadoria, pensão e integração com o SISAC.
+Solicitante: 
+
+Alvo: Segep ou Adm_SGP
+Status: Criado e parametrizado no SIGA.
+
+7	PA_adm_aposentadoria_pensão_RH
+15	PA_adm_cadastro_servidor_RH
+17	PA_adm_cessão_requisição_RH
+21	PA_adm_FC_CC_RH
+28	PA_adm_movimentação_interna_RH
+29	PA_adm_posse_exercicio_servidor_RH
+30	PA_adm_reintegração_recondução_RH
+31	PA_adm_remoção_RH
+32	PA_adm_reversão_RH
+33	PA_adm_sisac_RH
+35	PA_adm_vacância_RH
+62	PA_adm_vacância_falecimento_RH
+
+183 - Gestor_frequência_RH
+
+Descrição: Administrar eventos de frequência, hora extra, afastamentos, licença médica, averbação de tempo de serviço, férias e recesso.
+Solicitante: chefe Segep,Dsaud,Dilpe,Dipag,SCV,SPA ou TM_Conceder_perfil_TM
+Alvo: Segep ou Adm_SGP
+Status: Criado e parametrizado no SIGA.
+
+5	TM_adm_afastamentos_RH
+14	TM_adm_averbação_RH
+22	TM_adm_férias_RH
+24	TM_adm_frequência_RH
+26	TM_adm_hora_extra_RH
+86	TM_adm_licença_médica
+
+184 - Gestor_desempenho_RH
+
+Descrição: Administrar competências, planejamento de atividades, avaliação de desempenho, programa Reconhe-ser, estágio probatório, pesquisa de clima, pesquisa de satisfação e PDI.
+Solicitante: chefe Segep ou PD_Conceder_perfil_PD
+Alvo: Segep ou Adm_SGP
+Status: Criado e parametrizado no SIGA.
+
+69	PD_adm_reconhe-ser_RH
+143	PD_adm_competências_RH
+146	PD_adm_PDI_RH
+148	PD_adm_avaliação_desempenho_RH
+152	PD_adm_pesquisa_clima_RH
+160	PD_adm_estágio_probatório_RH
+163	PD_adm_planejamento_atividades_RH
+167	PD_adm_pesquisa_satisfação_RH
+
+185 - Gestor_seleção_RH
+
+Descrição: Administrar seleção, seleção interna, seleção para eventos, concurso público, concurso de remoção e banco de talentos.
+Solicitante: chefe Segep ou ISC ou ER_Conceder_perfil_ER
+Alvo: Segep, ISC ou Adm_SGP
+Status: Criado e parametrizado no SIGA.
+
+116	ER_adm_concurso_público_RH
+118	ER_adm_concurso_remoção_RH
+120	ER_adm_seleção_RH
+121	ER_consulta_seleção_RH
+122	ER_adm_seleção_eventos_RH
+124	ER_adm_banco_talentos_RH
+188	ER_adm_seleção_interna_RH
+189	ER_consulta_seleção_interna_RH
+
+186 - Gestor_contabilidade_RH
+
+Descrição: Administrar grade contábil, contabilidade, fornecedores/bancos, ordem interna e lançamento financeiro.
+Solicitante: chefe Segep ou Secof ou ER_Conceder_perfil_ER
+Alvo: Segep, Secof ou Adm_SGP
+Status: Criado e parametrizado no SIGA.
+
+71	FI_adm_contábil_RH
+72	FI_adm_fornecedor_banco_RH
+73	FI_adm_ordem_interna_RH
+76	FI_adm_lançamento_financeiro_RH
+79	FI_adm_grade_contábil_RH
+
+187 - Gestor_estágio_RH
+
+Descrição: Administrar estágio estudantil, incluindo seleção e avaliação de estagiários.
+Solicitante: chefe Segep
+Alvo: Segep ou Adm_SGP
+Status: Criado e parametrizado no SIGA.
+
+18	OM_adm_estágio_RH
+155	PD_adm_avaliação_estágio_RH
+125	ER_adm_seleção_estagiários_RH
